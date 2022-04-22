@@ -8,6 +8,7 @@ function guess_filenum {
 		echo "Hello there"
 		echo "you have guess it"
 		echo "  thanks then"
+		echo " then start guessing"
 		for f in $(ls)
 		do
 			echo "  - $f and "
